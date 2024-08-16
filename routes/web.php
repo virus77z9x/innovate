@@ -19,7 +19,7 @@ Route::group(['middleware' => 'guest'], function(){
 
 Route::group(
     [
-        'prefix' => LaravelLocalization::setLocale(),
+        'prefix' => LaravelLocalization::setLocale('en'),
         'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath', 'auth' ]
     ], function(){ 
         Route::get('dashboard', [HomeController::class, 'index'])->name('dashboard');
