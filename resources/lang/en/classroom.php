@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'classroom' => 'Classroom',
+    'classrooms' => 'Classrooms',
+    'add_classroom' => 'Add Classroom',
+    'edit_classroom' => 'Edit Classroom',
+    'delete_classroom' => 'Delete Classroom',
+    'classroom_name_en' => 'Classroom Name in English',
+    'classroom_name_ar' => 'Classroom Name in Arabic',
+    'notes' => 'notes',
+    'process' => 'Process',    
+    'classroom_notes' => 'Classroom Notes',
+    'class' => 'Class',
+    'schoolroom' => 'Schoolroom',
+    'study_room' => 'Study room',
+    'lecture_room' => 'Lecture room',
+    'training_room' => 'Training room',
+    'learning_space' => 'Learning space',
+    'education_room' => 'Education room',
+    'teaching_room' => 'Teaching room',
+    'training_hall' => 'Training hall',
+    'create_classroom' => 'Create Classroom',
+    'cancel' => 'Cancel',
+   'success' => 'Operation Successful',
+];
