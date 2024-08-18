@@ -1,3 +1,5 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.repeater/1.2.0/jquery.repeater.min.js"></script>
 <script src="{{ URL::asset('assets/js/jquery-3.3.1.min.js') }}"></script>
 <script src="{{ URL::asset('assets/js/plugins-jquery.js') }}"></script>
 
@@ -12,6 +14,3 @@
 <script src="{{ URL::asset('assets/js/validation.js') }}"></script>
 <script src="{{ URL::asset('assets/js/lobilist.js') }}"></script>
 <script src="{{ URL::asset('assets/js/custom.js') }}"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.repeater/1.2.0/jquery.repeater.min.js"></script>

@@ -19,7 +19,7 @@ Route::group(['middleware' => 'guest'], function(){
 
 Route::group(
     [
-        'prefix' => LaravelLocalization::setLocale('en'),
+        'prefix' => LaravelLocalization::setLocale(),
         'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath', 'auth' ]
     ], function(){ 
         Route::get('dashboard', [HomeController::class, 'index'])->name('dashboard');
@@ -38,6 +38,3 @@ Route::group(
         Route::post('classrooms/update/{id}', [ClassroomController::class, 'update'])->name('classrooms.update');
         Route::post('classrooms/delete/{id}', [ClassroomController::class, 'destroy'])->name('classrooms.destroy');
     });
-
-
-

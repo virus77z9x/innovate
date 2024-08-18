@@ -21,6 +21,9 @@ return [
     'teaching_room' => 'غرفة تدريس',
     'training_hall' => 'قاعة تدريب',
     'cancel' => 'الغاء',
-
+    'save'=> 'حفظ',
+    'add_row'=> 'ادراج',
+    'edit_row'=> 'تعديل',
+    'delete_row'=> 'حذف',
 
 ];

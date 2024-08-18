@@ -22,5 +22,9 @@ return [
     'training_hall' => 'Training hall',
     'create_classroom' => 'Create Classroom',
     'cancel' => 'Cancel',
-   'success' => 'Operation Successful',
+    'success' => 'Operation Successful',
+    'save'=> 'Save',
+    'add_row'=> 'Insert',
+    'edit_row'=> 'Edit',
+    'delete_row'=> 'Delete',
 ];
